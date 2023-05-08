@@ -1,0 +1,17 @@
+{
+    "name": "sample-nft-project",
+    "version": "0.0.1",
+    "source-dir": "dapp/contracts",
+    "modules": [ "SimpleStorage"
+               , "SignalMarket"
+               , "FoamToken"
+               , "SignalToken"
+               ],
+    "dependencies": [ "openzeppelin-solidity" ],
+    "purescript-generator": {
+        "output-path": "dapp/src",
+        "module-prefix": "Contracts"
+    },
+    "solc-evm-version": "byzantium",
+    "solc-version": "0.5.11"
+}

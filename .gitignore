@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+bower_components
+output
+build
+dapp/src/Contracts
+package-lock.json
+stack.yaml.lock
+.stack-work
+*.dump-splices
+.psc-ide-port
